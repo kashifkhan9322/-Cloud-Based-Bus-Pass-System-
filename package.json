@@ -1,0 +1,13 @@
+{
+  "name": "cloud-based-bus-pass-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cloud-ready bus pass and ticket booking demo with server-side pricing, durable JSON storage, tests, and deployment documentation.",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test",
+    "check": "node --check server.js && node --check public/app.js && node --test"
+  },
+  "engines": { "node": ">=20" }
+}
